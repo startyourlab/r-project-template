@@ -1,0 +1,15 @@
+# This is a configuration file for the config package written
+# by RStudio. To use, make sure the package `config` is installed,
+# via console:
+#
+# R > install.packages("config")
+#
+# Then, you can load within a notebook chunk with `library(config)`.
+#
+# To use default config settings, simply write `config::get()`.
+#
+# You can learn more at:
+#   https://cran.r-project.org/web/packages/config/vignettes/introduction.html.
+default:
+  path:
+    data: "~/data"

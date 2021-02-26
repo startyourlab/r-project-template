@@ -4,11 +4,15 @@ This is a template to begin analysis projects in R Studio.
 
 ## Prerequisites
 
+### Local Applications
+
 To use this template, you must have the following installed locally:
 
 - Git
 - R
 - RStudio
+
+### R Packages
 
 You will have an even better experience using this template if you also
 install standard system packages for working with R to do analysis:
@@ -16,6 +20,10 @@ install standard system packages for working with R to do analysis:
 - devtools
 - fs
 - config
+- knitr
+
+Simply use `install.packages("devtools")`, replacing `devtools` with
+the other package names for each installation.
 
 ## Installation
 
@@ -37,6 +45,13 @@ git clone https://github.com/username/repository.git
 
 making sure that you change `username` for your GitHub username
 and `repository` for the name of your new repository.
+
+You'll need to rename the following files with your own names:
+
+- `template.Rproj`, changing `template` to your repository name
+- `notebook-template.Rmd`, changing `notebook-template` to the notebook
+  name that you would like.
+- `LICENSE`, replacing the template author's name with your name.
 
 ## Support
 
