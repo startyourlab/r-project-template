@@ -53,6 +53,19 @@ You'll need to rename the following files with your own names:
   name that you would like.
 - `LICENSE`, replacing the template author's name with your name.
 
+Once files are renamed, it's time to commit these changes as your
+first commit to GitHub. From the root of the project directory, run the 
+following commands one-at-a-time, in order.
+
+```
+git add .
+git commit -am "Rename core files"
+git push
+```
+
+Now that everything is squared away, it's time to start work on your
+project. Open the renamed `.Rproj` file in RStudio, and get to it!
+
 ## Support
 
 For questions about this template, please contact [Ari Dyckovsky](mailto:aridyckovsky@gmail.com).
