@@ -22,7 +22,7 @@ install.packages('renv')
 
 ## Installation
 
-To use this template, click the green **Use this template** button or you can [click here](https://github.com/aridyckovsky/r-project-template/generate) to generate your project. It will ask you to 
+To use this template, click the green **Use this template** button or you can [click here](https://github.com/startyourlab/r-project-template/generate) to generate your project. It will ask you to 
 
 1. Choose the repository's username/organization name, i.e., `yourlab`.
 2. Name the repository, i.e., `our-new-r-project`.
