@@ -1,3 +1,4 @@
+source("renv/activate.R")
 #### -- Consistent File Downloads -- ####
 if(.Platform$OS.type == "windows") {
   options(
@@ -6,7 +7,7 @@ if(.Platform$OS.type == "windows") {
 } else {
   options(
     download.file.method = "libcurl"
-  ) 
+  )
 }
 
 #### -- Set CRAN -- ####
@@ -23,7 +24,7 @@ options(
 options(
   digits = 12, # number of significant digits to show by default
   width = 80 # console width
-) 
+)
 
 #### -- Time Zone -- ####
 if (Sys.getenv("TZ") == "") Sys.setenv("TZ" = Sys.timezone())
@@ -37,6 +38,9 @@ if (interactive()) {
     cat("\n")
     utils::timestamp("", prefix = paste("##------ [", getwd(), "] ", sep = ""))
     cat("\nSuccessfully loaded .Rprofile at", base::date(), "\n")
+    cat("\n")
+    cat("For more information about this project template, go to:\n")
+    cat("https://github.com/startyourlab/r-project-template\n")
   }
 }
 
@@ -46,7 +50,7 @@ if (interactive()) {
 }
 
 options(
-  prompt = "R > ", 
+  prompt = "R > ",
   continue = "... "
 )
 
