@@ -18,10 +18,12 @@ This is a template repository for **using R with a team**. Use this template to 
 The R project you create with this template will be equipped with several helpful features:
 
 - An RStudio project `template.Rproj` with smart defaults
-- A comprehensive [`.gitignore`](./.gitignore) file to keep version tracking history clean
-- An RMarkdown notebook [`notebook-template.Rmd`](./notebook-template.Rmd) with quick code chunk examples
 - Package dependency management using [`renv`](https://github.com/rstudio/renv/)
 - Environment-specific configuration using [`config`](https://github.com/rstudio/config)
+- A comprehensive [`.gitignore`](./.gitignore) file to keep version tracking history clean
+- An RMarkdown notebook [`notebook-template.Rmd`](./notebook-template.Rmd) with quick code chunk examples
+- Generated document settings in `_output.yaml` for rendering RMarkdown notebooks with `knitr`
+- A dedicated [`R`](./R) folder for pure R scripts and reusable functions
 - [GitHub Issues templates](./.github/ISSUE_TEMPLATE) for [filing bug reports, documentation updates, and feature requests](https://github.com/startyourlab/r-project-template/issues/new/choose)
 
 ## Prerequisites
