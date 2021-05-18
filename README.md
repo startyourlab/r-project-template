@@ -1,8 +1,28 @@
+<!--
+**** README for the R Project Template repository
+**** Origin URL: https://github.com/startyourlab/r-project-template
+****
+**** This README is your guide to setting up an R project for you and your team.
+**** When you have completed setup, you should adapt the content of this README
+**** to reflect your own project's specifications.
+-->
+
 [![Start Your Lab][syl-project-shield]][syl-project-url]
 
 # R Project Template
 
 This is a template repository for **using R with a team**. Use this template to leverage a shared set of configurations optimized for teams developing projects in R.
+
+## Template Features
+
+The R project you create with this template will be equipped with several helpful features:
+
+- An RStudio project `template.Rproj` with smart defaults
+- A comprehensive [`.gitignore`](./.gitignore) file to keep version tracking history clean
+- An RMarkdown notebook [`notebook-template.Rmd`](./notebook-template.Rmd) with quick code chunk examples
+- Package dependency management using [`renv`](https://github.com/rstudio/renv/)
+- Environment-specific configuration using [`config`](https://github.com/rstudio/config)
+- [GitHub Issues templates](./.github/ISSUE_TEMPLATE) for [filing bug reports, documentation updates, and feature requests](https://github.com/startyourlab/r-project-template/issues/new/choose)
 
 ## Prerequisites
 
