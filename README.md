@@ -17,7 +17,7 @@ This is a template repository for **using R with a team**. Use this template to 
 
 The R project you create with this template will be equipped with several helpful features:
 
-- An RStudio project `template.Rproj` with smart defaults
+- An RStudio project [`template.Rproj`](./template.Rproj) with smart defaults
 - Package dependency management using [`renv`](https://github.com/rstudio/renv/)
 - Environment-specific configuration using [`config`](https://github.com/rstudio/config)
 - A comprehensive [`.gitignore`](./.gitignore) file to keep version tracking history clean
